@@ -12,6 +12,7 @@ This will need a PostgreSQL db created and populated with /data/us_geodata.csv t
 - `mvn spring-boot:run`
 - service should start and be listening on port 8080
 - navigate to `http://<ip>:8080/geosmith/v1/geodata/90210`
+- should recieve a response like the one below:
 
 ![image](https://github.com/phydesmith/GeosmithAPI/assets/31049044/5fdbabbe-5af2-4190-ab39-a9922f6db936)
 
