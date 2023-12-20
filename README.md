@@ -1,6 +1,6 @@
 # GeosmithAPI
 
-This is a simple Spring Boot REST App. It listens on port 8080 and has a single endpoint at /geosmith/v1/geodata/{postalcode}.
+This is a simple Spring Boot REST App intended to be used with the <a href="https://github.com/phydesmith/WeathersmithFX/tree/main">WeathersmithFX App</a>.
 
 This accepts a postal code and returns a "GeoData" object with information relating to it, including the latitude and longitude which are required to use the <a href="https://www.weather.gov/documentation/services-web-api>weather.gov</a> API.
 
